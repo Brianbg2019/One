@@ -2,7 +2,7 @@ window.marker = null;
 
 function initialize() {
   var map;
-  var latitude = $('#map_canvas').attr('data-latitude');
+  var latitude = $('#map_canvas').attr('data-latitude');  
   var longitude = $('#map_canvas').attr('data-longitude');
   var nottingham = new google.maps.LatLng(latitude, longitude);
   var style = [
@@ -50,7 +50,7 @@ function initialize() {
     streetViewControl: false,
     overviewMapControl: false,
     zoomControlOptions: {
-      style: google.maps.ZoomControlStyle.LARGE
+    style: google.maps.ZoomControlStyle.LARGE
     }
   }
   map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
