@@ -19,6 +19,29 @@ body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+.btn-info{
+  padding:9px 15px;
+  border-bottom:1px solid #d82f8a;
+  background-color: #d82f8a;
+  border:#d82f8a;
+}
+
+.btn-info:hover{
+  background-color: #d82f8a;
+  border:#d82f8a;
+
+}
+
+.btn-l{
+  color: black;
+}
+
+.modal-header {
+  padding:8px 35px;
+  border-bottom:1px solid #d82f8a;
+  background-color: #d82f8a;
+
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
